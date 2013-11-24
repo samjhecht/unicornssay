@@ -5,9 +5,7 @@ from django.http import HttpResponse
 
 def homepage(request):
 
-
-def current_datetime(request):
-    now = datetime.datetime.now()
-    t = get_template('unicorns.html')
-    html = t.render()
-    return HttpResponse(html)
+    # t = get_template('unicorns.html')
+    # html = t.render()
+    # return HttpResponse(html)
+    return render(request, 'unicorns.html')
