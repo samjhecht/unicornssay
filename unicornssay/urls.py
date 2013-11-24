@@ -3,7 +3,7 @@ from django.conf.urls import patterns, include, url
 from django.contrib import admin
 admin.autodiscover()
 
-from mysite.views import hello
+from unicorns.views import hello
 
 urlpatterns = patterns('',
     # Examples:
